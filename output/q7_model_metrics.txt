@@ -1,0 +1,16 @@
+Model Performance Metric
+
+Linear Regression: 
+training r2: 0.25188923154536325
+testing r2: 0.18392712047217696
+training mae: 11.017724304988171
+testing mae: 10.95633094586576
+training rmse: 13.629523340306752
+testing rmse: 13.418724059469113
+Random Forest Regression: 
+training r2: 0.99217391216381
+testing r2: 0.8178393391929699
+training mae: 0.6648414007425286
+testing mae: 3.49109544551429
+training rmse: 1.3940234312263486
+testing rmse: 6.339777936898852

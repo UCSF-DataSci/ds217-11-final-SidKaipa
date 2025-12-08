@@ -1,0 +1,17 @@
+Key Findings Summary
+
+MODEL PERFORMANCE:
+- Best performing model: Random Forest model (testing R² = 0.82)
+- The linear regression did quite poorly (testing R² = 0.18)
+
+FEATURE IMPORTANCE (Random Forest):
+- Most important feature: Temperature Difference (importance: 0.46)
+- Top 3 features are Temperature Difference, Wet Bulb Temperature, and Battery Life
+- Year seems to be the most important in the temporal features
+
+TEMPORAL PATTERNS:
+- There seems to be seasonal patterns when humidity is concerned, as it periodically goes up and down as the time passes.
+
+DATA QUALITY:
+- Rows cleaned: 196289. Same number of rows as before, since NAs weren't dropped but imputed through forward-fill
+- Outliers were capped using the IQR method

@@ -1,0 +1,17 @@
+Rows before cleaning: 196289
+
+Missing data handling method: used forward fill to impute all missing values.
+
+Air Temperature, Wet Bulb Temperature, Rain Intensity, Total Rain, Precipitation Type, Barometric Pressure, and Heading had missing data
+
+All but Air Temperature and Barometric Pressure had 75935 values that needed to be filled. Air Temperature had 75, and Barometric Pressure had 146.
+
+The outlier detection method used was IQR, and any values that were considered outliers were capped.
+
+Columns and number of outliers before cleaning: {'Air Temperature': np.int64(97), 'Wet Bulb Temperature': np.int64(269), 'Humidity': np.int64(185), 'Rain Intensity': np.int64(6621), 'Interval Rain': np.int64(15850), 'Total Rain': np.int64(11621), 'Precipitation Type': np.int64(12657), 'Wind Direction': np.int64(0), 'Wind Speed': np.int64(12221), 'Maximum Wind Speed': np.int64(4024), 'Barometric Pressure': np.int64(4611), 'Solar Radiation': np.int64(29484), 'Heading': np.int64(27532), 'Battery Life': np.int64(6)}
+
+0 duplicates found and removed
+
+Measurement Timestamp was made into a datetime variable, and Precipitation Type was made into a categorical variable.
+
+Rows after cleaning: 196289

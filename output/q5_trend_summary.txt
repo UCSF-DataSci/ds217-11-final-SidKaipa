@@ -1,0 +1,4 @@
+Yearly TRENDS:
+2016 and 2022 had the highest yearly average air temperature, with over 16 and a little under 16 degrees respectively. 2019 and 2023 had the lowest yearly average air temperature, with a little over 10 and a little under 11 degrees respectively.
+Correlations:
+Air temperature and wet bulb temperature are highly correlated with an correlation value of 0.83. Heading and battery life are the second highest correlated variables with a value of 0.29. The highest negatively correlated variables are barometric pressure and air temperature with -0.25.
